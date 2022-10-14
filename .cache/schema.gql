@@ -1,4 +1,4 @@
-### Type definitions saved at 2022-10-14T20:34:17.934Z ###
+### Type definitions saved at 2022-10-14T21:41:11.085Z ###
 
 enum RemoteFileFit {
   COVER
@@ -711,10 +711,7 @@ type ThemeUiConfig implements Node @dontInfer {
 
 type MdxFrontmatter {
   title: String
-  date: Date @dateformat
   slug: String
-  canonicalUrl: String
-  description: String
+  date: Date @dateformat
   tags: [String]
-  banner: File @fileByRelativePath
 }
