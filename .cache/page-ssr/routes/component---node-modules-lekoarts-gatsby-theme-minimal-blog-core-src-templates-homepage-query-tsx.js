@@ -1479,60 +1479,9 @@ var seo = __webpack_require__(8871);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__(1151);
 ;// CONCATENATED MODULE: ./src/@lekoarts/gatsby-theme-minimal-blog/texts/hero.mdx
-/*@jsxRuntime classic @jsx React.createElement @jsxFrag React.Fragment*/
-
-
-function _createMdxContent(props) {
-  const {
-    Text
-  } = Object.assign({}, (0,lib/* useMDXComponents */.ah)(), props.components);
-  if (!Text) _missingMdxReference("Text", true);
-  return /*#__PURE__*/index_js_default().createElement(Text, {
-    children: `Hi.`,
-    sx: {
-      fontSize: [4, 5, 6],
-      fontWeight: `bold`,
-      color: `heading`
-    }
-  });
-}
-function MDXContent(props = {}) {
-  const {
-    wrapper: MDXLayout
-  } = Object.assign({}, (0,lib/* useMDXComponents */.ah)(), props.components);
-  return MDXLayout ? /*#__PURE__*/index_js_default().createElement(MDXLayout, props, /*#__PURE__*/index_js_default().createElement(_createMdxContent, props)) : _createMdxContent(props);
-}
-/* harmony default export */ const hero = (MDXContent);
-function _missingMdxReference(id, component) {
-  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
-}
+/*@jsxRuntime classic @jsx React.createElement @jsxFrag React.Fragment*/function _createMdxContent(props){const{Text}=Object.assign({},(0,lib/* useMDXComponents */.ah)(),props.components);if(!Text)_missingMdxReference("Text",true);return/*#__PURE__*/index_js_default().createElement(Text,{children:`Hi.`,sx:{fontSize:[4,5,6],fontWeight:`bold`,color:`heading`}});}function MDXContent(props={}){const{wrapper:MDXLayout}=Object.assign({},(0,lib/* useMDXComponents */.ah)(),props.components);return MDXLayout?/*#__PURE__*/index_js_default().createElement(MDXLayout,props,/*#__PURE__*/index_js_default().createElement(_createMdxContent,props)):_createMdxContent(props);}/* harmony default export */ const hero = (MDXContent);function _missingMdxReference(id,component){throw new Error("Expected "+(component?"component":"object")+" `"+id+"` to be defined: you likely forgot to import, pass, or provide it.");}
 ;// CONCATENATED MODULE: ./src/@lekoarts/gatsby-theme-minimal-blog/texts/bottom.mdx
-/*@jsxRuntime classic @jsx React.createElement @jsxFrag React.Fragment*/
-
-
-function bottom_createMdxContent(props) {
-  const _components = Object.assign({
-      ul: "ul",
-      li: "li"
-    }, (0,lib/* useMDXComponents */.ah)(), props.components),
-    {
-      Title
-    } = _components;
-  if (!Title) bottom_missingMdxReference("Title", true);
-  return /*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment, null, /*#__PURE__*/index_js_default().createElement(Title, {
-    text: "Projects"
-  }), "\n", /*#__PURE__*/index_js_default().createElement(_components.ul, null, "\n", /*#__PURE__*/index_js_default().createElement(_components.li, null, "Working on it."), "\n"));
-}
-function bottom_MDXContent(props = {}) {
-  const {
-    wrapper: MDXLayout
-  } = Object.assign({}, (0,lib/* useMDXComponents */.ah)(), props.components);
-  return MDXLayout ? /*#__PURE__*/index_js_default().createElement(MDXLayout, props, /*#__PURE__*/index_js_default().createElement(bottom_createMdxContent, props)) : bottom_createMdxContent(props);
-}
-/* harmony default export */ const bottom = (bottom_MDXContent);
-function bottom_missingMdxReference(id, component) {
-  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
-}
+/*@jsxRuntime classic @jsx React.createElement @jsxFrag React.Fragment*/function bottom_createMdxContent(props){const _components=Object.assign({ul:"ul",li:"li"},(0,lib/* useMDXComponents */.ah)(),props.components),{Title}=_components;if(!Title)bottom_missingMdxReference("Title",true);return/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,/*#__PURE__*/index_js_default().createElement(Title,{text:"Projects"}),"\n",/*#__PURE__*/index_js_default().createElement(_components.ul,null,"\n",/*#__PURE__*/index_js_default().createElement(_components.li,null,"Working on it."),"\n"));}function bottom_MDXContent(props={}){const{wrapper:MDXLayout}=Object.assign({},(0,lib/* useMDXComponents */.ah)(),props.components);return MDXLayout?/*#__PURE__*/index_js_default().createElement(MDXLayout,props,/*#__PURE__*/index_js_default().createElement(bottom_createMdxContent,props)):bottom_createMdxContent(props);}/* harmony default export */ const bottom = (bottom_MDXContent);function bottom_missingMdxReference(id,component){throw new Error("Expected "+(component?"component":"object")+" `"+id+"` to be defined: you likely forgot to import, pass, or provide it.");}
 ;// CONCATENATED MODULE: ./node_modules/@lekoarts/gatsby-theme-minimal-blog/src/components/homepage.tsx
 /** @jsx jsx */const Homepage=({posts})=>{const{basePath,blogPath}=(0,use_minimal_blog_config/* default */.Z)();const{siteTitle}=(0,use_site_metadata/* default */.Z)();return (0,theme_ui_esm/* jsx */.tZ)(layout/* default */.Z,null,(0,theme_ui_esm/* jsx */.tZ)("h1",{sx:utils/* visuallyHidden */.j},siteTitle),(0,theme_ui_esm/* jsx */.tZ)("section",{sx:{mb:[5,6,7],p:{fontSize:[1,2,3],mt:2},variant:`section_hero`}},(0,theme_ui_esm/* jsx */.tZ)(hero,null)),(0,theme_ui_esm/* jsx */.tZ)(title/* default */.Z,{text:"Latest Posts"},(0,theme_ui_esm/* jsx */.tZ)(gatsby_browser_entry.Link,{to:(0,replaceSlashes/* default */.Z)(`/${basePath}/${blogPath}`)},"Read all posts")),(0,theme_ui_esm/* jsx */.tZ)(listing/* default */.Z,{posts:posts,showTags:false}),(0,theme_ui_esm/* jsx */.tZ)(list,null,(0,theme_ui_esm/* jsx */.tZ)(bottom,null)));};/* harmony default export */ const homepage = (Homepage);const Head=()=>(0,theme_ui_esm/* jsx */.tZ)(seo/* default */.Z,null);
 ;// CONCATENATED MODULE: ./node_modules/@lekoarts/gatsby-theme-minimal-blog/src/@lekoarts/gatsby-theme-minimal-blog-core/components/homepage.tsx

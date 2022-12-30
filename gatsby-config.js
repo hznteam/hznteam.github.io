@@ -10,13 +10,13 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `HZN`,
-    siteTitleAlt: `Somos HZN, Rey de Javas`,
+    siteTitle: `HZN TEAM`,
+    siteTitleAlt: `Somos HZN, Creamos nichos :)`,
     siteHeadline: `Blog sobre HZN`,
     siteUrl: `https://hzn.com.es`,
     siteDescription: `Os contamos nuestros pasos en el mundo de los nichos`,
     siteImage: `/banner.jpg`,
-    author: `@hzn`,
+    author: `@hznteam`,
   },
   plugins: [
     {
@@ -36,7 +36,7 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/hzncom`,
+            url: `https://twitter.com/hznteam`,
           },
           {
             name: `Homepage`,
